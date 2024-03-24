@@ -22,6 +22,9 @@ body {
 
   border: 150vmax solid black;
   scale: 2;
+  /*Strange fix for 1px gap between backrgound and border*/
+  box-shadow: 0 0 0 4px black inset, 0 0 0 2px black inset,
+    0 0 0 3px black inset, 0 0 0 4px black inset;
 
   transition: scale 1s ease;
 }
